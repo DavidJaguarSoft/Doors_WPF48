@@ -1,0 +1,43 @@
+{
+  "Credential": {
+    "Username": "MyEMail@MyDomain.com",
+    "Token": "ThisIsA60CharTokenDemonstrationPurposes=>DavidJaguarSoft.com"
+  },
+  "Culture": {
+    "CultureInfo": "es-ES",
+    "UICultureInfo": "es-ES",
+    "CultureSpeech": "es-MX"
+  },
+  "Factor": {
+    "TickSamanthaListens": "35",
+    "TicksSamAskWhatInstruccion": "10",
+    "SpeechRecognizedConfidenceConfidence": "0.5",
+    "TimerInterval": "100"
+  },
+  "Behavior": {
+    "GrammarLoadMode": "INSTRUCTIONONLY"
+  },
+  "Synthesizer": {
+    "SpeechSynthesizerVoice": "Microsoft Helena Desktop",
+    "SpeechSynthesizerVolume": "95",
+    "SpeechSynthesizerRate": "-1"
+  },
+  "Log": {
+    "PathLog": "C:\\DavidJaguarSoft\\SamanthaDJ\\LogFile",
+    "GenerateLog": "true",
+    "GenerateRunEventLog": "true",
+    "GenerateSpeechRecognizedEventLog": "true"
+  },
+  "Other": {
+    "PropertyStringA": "",
+    "PropertyStringB": "",
+    "PropertyStringC": "",
+    "PropertyStringD": "",
+    "PropertyStringE": "",
+    "PropertyNumericaA": "0",
+    "PropertyNumericaB": "0",
+    "PropertyNumericaC": "0",
+    "PropertyNumericaD": "0",
+    "PropertyNumericaE": "0"
+  }
+}
