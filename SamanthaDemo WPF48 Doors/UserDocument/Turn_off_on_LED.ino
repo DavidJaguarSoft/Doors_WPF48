@@ -3,15 +3,15 @@ int A =13;
 int B =12;
 int C =11;
 int D=10;
-int E=9;
+//int E=9;
 int Sound=8;
 void setup(){
   Serial.begin(9600);
-  pinMode(D,OUTPUT);
-  pinMode(E,OUTPUT);
   pinMode (A,OUTPUT);
    pinMode (B,OUTPUT); 
    pinMode (C,OUTPUT);
+   pinMode(D,OUTPUT);
+  //pinMode(E,OUTPUT);
    pinMode(8,INPUT);
 }
 void loop(){
@@ -66,25 +66,25 @@ void loop(){
       Serial.println("D OFF");
       tone(8,3000,150);
     }
-      if(f==101){//e E on
-      digitalWrite (E,HIGH);
-      Serial.flush();
-      Serial.println("E ON");
-      tone(8,3000,150);
-    }
-    if (f==53){//5 E off
-      digitalWrite (E,LOW);
-      Serial.flush();
-      Serial.println("E OFF");
-      tone(8,3000,150);
-    }
+    //if(f==101){//e E on
+    //  digitalWrite (E,HIGH);
+    //  Serial.flush();
+    //  Serial.println("E ON");
+    //  tone(8,3000,150);
+    //}
+    //if (f==53){//5 E off
+    //  digitalWrite (E,LOW);
+    //  Serial.flush();
+    //  Serial.println("E OFF");
+    //  tone(8,3000,150);
+    //}
     
     if (f==65){ //A All ON
     digitalWrite(A,HIGH);
     digitalWrite(B,HIGH);
     digitalWrite(C,HIGH);
     digitalWrite(D,HIGH);
-    digitalWrite(E,HIGH);
+    //digitalWrite(E,HIGH);
     Serial.flush();
     Serial.println("Turn all on");
     tone(8,3500,150);
@@ -98,7 +98,7 @@ void loop(){
     digitalWrite(B,LOW);
      digitalWrite(C,LOW);
     digitalWrite(D,LOW);
-    digitalWrite(E,LOW);
+    //digitalWrite(E,LOW);
     Serial.flush();
     Serial.println("Turn all off");
     tone(8,2000,150);
