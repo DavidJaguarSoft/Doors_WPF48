@@ -1,5 +1,11 @@
 ﻿
 -----------------------------------------------------------
+DavidJaguarSoft.com
+Ing. David Jaguar
+Mérida, Yucatán, México
+EMail: DavidJagurSoft@gmail.com
+ Cel.: 999 247 4660
+-----------------------------------------------------------
 2026-04-17
 Pagina oficial "Arduino IDE 2.3.8"
 https://www.arduino.cc/en/software/

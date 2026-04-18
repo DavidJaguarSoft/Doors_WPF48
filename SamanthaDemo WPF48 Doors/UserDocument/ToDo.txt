@@ -1,4 +1,3 @@
 ﻿
 - Digrama de funcionamiento
-- Repositorio GitHub
-- Probar descarga de respositorio con Lau
+
