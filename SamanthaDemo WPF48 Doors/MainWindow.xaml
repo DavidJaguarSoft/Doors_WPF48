@@ -24,13 +24,13 @@
 
 
         <ProgressBar Name="ProgressBarListening" Value="0" Height="14" Width="196" Background="DarkGray"
-                     Foreground="Red" HorizontalAlignment="Left" Margin="496,619,0,0" VerticalAlignment="Top" />
+                     Foreground="Red" HorizontalAlignment="Left" Margin="354,619,0,0" VerticalAlignment="Top" />
         <TextBlock Name="TextBlockListening" Text="{Binding ElementName=ProgressBarListening, Path=Value, StringFormat={}{0:0}}" FontSize="9" Foreground="White"
-                   HorizontalAlignment="Left" TextAlignment="Center" VerticalAlignment="Top" Width="27" Margin="583,619,0,0" />
+                   HorizontalAlignment="Left" TextAlignment="Center" VerticalAlignment="Top" Width="27" Margin="441,619,0,0" />
         <TextBlock Name="TextBlockInstructionDetected" Text="---" FontSize="10" Foreground="Blue"
-                   HorizontalAlignment="Left" TextAlignment="Center" VerticalAlignment="Top" Width="196" Margin="496,635,0,0" />
+                   HorizontalAlignment="Left" TextAlignment="Center" VerticalAlignment="Top" Width="196" Margin="354,635,0,0" />
 
-        <TextBlock Margin="946,626,0,0" HorizontalAlignment="Left" Width="220" Height="23" VerticalAlignment="Top">
+        <TextBlock Margin="670,619,0,0" HorizontalAlignment="Left" Width="220" Height="23" VerticalAlignment="Top">
             <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.DavidJaguarSoft.com">
                 Administrar mi cuenta de Samantha
             </Hyperlink>
@@ -38,8 +38,8 @@
 
         <Rectangle Fill ="Red"  Margin="34,630,0,0" Height="10" VerticalAlignment="Top" HorizontalAlignment="Left" Width="10" />
         <TextBlock Margin="49,628,0,0" HorizontalAlignment="Left" Width="66" Height="16" VerticalAlignment="Top" FontSize="10"><Run Language="es-mx" Text="Close Door"/></TextBlock>
-        <Rectangle Fill ="Blue"  Margin="150,630,0,0" Height="10" VerticalAlignment="Top" HorizontalAlignment="Left" Width="10" />
-        <TextBlock Margin="166,628,0,0" HorizontalAlignment="Left" Width="68" Height="16" VerticalAlignment="Top" FontSize="10"><Run Language="es-mx" Text="Open Door"/></TextBlock>
+        <Rectangle Fill ="Blue"  Margin="126,630,0,0" Height="10" VerticalAlignment="Top" HorizontalAlignment="Left" Width="10" />
+        <TextBlock Margin="142,628,0,0" HorizontalAlignment="Left" Width="68" Height="16" VerticalAlignment="Top" FontSize="10"><Run Language="es-mx" Text="Open Door"/></TextBlock>
 
         <TextBlock Margin="132,302,0,0" HorizontalAlignment="Left" Width="48" Height="16" VerticalAlignment="Top"><Run Language="es-mx" Text="Door"/><Run Text=" 1"/></TextBlock>
         <Button Name="ButtonDoorOne" Height="10" Background="Red" Margin="106,285,0,0" VerticalAlignment="Top"
